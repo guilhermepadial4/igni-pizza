@@ -3,6 +3,7 @@ import path from "path";
 import { defineConfig } from "vite";
 
 export default defineConfig({
+  base: "/igni-pizza",
   plugins: [react()],
   resolve: {
     alias: {
